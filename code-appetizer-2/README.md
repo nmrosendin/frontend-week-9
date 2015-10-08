@@ -1,4 +1,4 @@
-# Gravatar
+# What color is it?
 
 Do your work in `index.html` and `script.js`.
 
