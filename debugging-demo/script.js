@@ -1,0 +1,12 @@
+var funcs = [];
+for (var i = 0; i < 3; i++) {          // let's create 3 functions
+    debugger;
+    funcs[i] = function() {            // and store them in funcs
+        console.log("My value: " + i); // each should log its value.
+    };
+}
+
+for (var j = 0; j < 3; j++) {
+    funcs[j]();                        // and now let's run each one to see
+}
+
